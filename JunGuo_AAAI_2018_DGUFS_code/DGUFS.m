@@ -6,14 +6,14 @@ function [Y,L,V,Label] = DGUFS(X,nClass,S,alpha,beta,nSel)
 % Feature Selection," In AAAI 2018.
 %   -Source code version 1.0  2018/03/01 by Jun Guo
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Input£º
+% Input:
 %       X       -each column is an original sample
 %       nClass  -the number of clusters
 %       S       -similarity matrix of data X
 %       alpha	-regularization parameter: alpha*rank(L)
 %       beta	-regularization parameter: beta*tr(S'*L)
 %       nSel	-the dimension of selected features
-% Output£º
+% Output:
 %       Y   	-the selected features, each column is a sample
 %       L       -kernel matrix L = V'*V
 %       V       -each column is a one-hot label
