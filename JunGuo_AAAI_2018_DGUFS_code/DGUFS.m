@@ -25,7 +25,7 @@ function [Y,L,V,Label] = DGUFS(X,nClass,S,alpha,beta,nSel)
 %   title = {Dependence Guided Unsupervised Feature Selection},
 %   booktitle = {Proc. AAAI Conf. Artificial Intell. (AAAI)},
 %   address = {New Orleans, Louisiana},
-%   pages = {P1-P8},
+%   pages = {2232-2239},
 %   month = {Feb.},
 %   year = {2018}
 % }
