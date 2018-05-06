@@ -9,7 +9,7 @@ Please cite our work if you find these resources helpful.
         title = {Dependence Guided Unsupervised Feature Selection},
         booktitle = {Proc. AAAI Conf. Artificial Intell. (AAAI)},  
         address = {New Orleans, Louisiana},  
-        pages = {P1-P8},  
+        pages = {2232-2239},  
         month = {Feb.},
         year = {2018}
     }
