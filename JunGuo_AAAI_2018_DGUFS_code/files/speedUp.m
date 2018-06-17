@@ -1,5 +1,5 @@
-function [ Cnew ] = speedUp( C )
-% Refer to SCAMS£ºSimultaneous Clustering and Model Selection, CVPR2014 
+function Cnew = speedUp(C)
+% Refer to SCAMS: Simultaneous Clustering and Model Selection, CVPR2014 
 
 diagmask = logical(eye(size(C,1)));
 C(diagmask) = 0; %main diagonal = 0
